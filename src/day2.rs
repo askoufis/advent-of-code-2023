@@ -166,11 +166,7 @@ fn parse_game(input: &str) -> IResult<&str, Game> {
 #[aoc_generator(day2)]
 pub fn input_generator(input: &str) -> Vec<Game> {
     let result = separated_list1(char('\n'), parse_game)(input);
-    // let foo = match result {
-    //     Ok(_) => unreachable!(),
-    //     Err(error) => panic!("Bad: {:?}", error),
-    // };
-    //
+
     result.ok().expect("Bad parse").1
 }
 
