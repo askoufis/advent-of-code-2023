@@ -4,12 +4,12 @@ pub fn input_generator(input: &str) -> Vec<usize> {
 }
 
 #[aoc(day1, part1)]
-pub fn solve_part1(input: &[u32]) -> usize {
+pub fn solve_part1(input: &[usize]) -> usize {
     1
 }
 
 #[aoc(day1, part2)]
-pub fn solve_part2(input: &[u32]) -> usize {
+pub fn solve_part2(input: &[usize]) -> usize {
     1
 }
 
